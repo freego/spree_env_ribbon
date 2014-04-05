@@ -1,0 +1,49 @@
+.env-ribbon {
+    width: 250px;
+    height: 30px;
+    background-color: black;
+    overflow: hidden;
+    position: absolute;
+    right: -4.5em;
+    top: 3.5em;
+
+    -moz-transform: rotate(+45deg);
+    -ms-transform: rotate(+45deg);
+    -o-transform: rotate(+45deg);
+    -webkit-transform: rotate(+45deg);
+    transform: rotate(+45deg);
+
+    -moz-box-shadow: 0 0 0.2em #888;
+    -webkit-box-shadow: 0 0 0.2em #888;
+    box-shadow: 0 0 0.2em #888;
+
+    display: block;
+    border: 1px solid #888;
+    text-align: center;
+}
+
+.env-ribbon span {
+  color: #fff;
+  font-size:1em;
+  font-weight:bold;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 29px;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000;
+  text-transform: uppercase;
+}
+.env-ribbon-development {
+  background-color: #009900;
+  border: 1px solid #009933;
+}
+
+.env-ribbon-test, .env-ribbon-staging {
+  background-color: #FF6600;
+  border: 1px solid #FF6633;
+}
+
+.env-ribbon-production {
+  background-color: #CC0000;
+  border: 1px solid #CC0033;
+}

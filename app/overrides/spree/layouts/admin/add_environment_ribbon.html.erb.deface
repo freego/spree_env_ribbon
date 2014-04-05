@@ -1,0 +1,6 @@
+<!-- insert_bottom 'body' -->
+<% unless %w(production).include? Rails.env %>
+  <div class="env-ribbon env-ribbon-<%= Rails.env %>">
+    <span><%= Rails.env %></span>
+  </div>
+<% end %>
