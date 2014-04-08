@@ -12,7 +12,7 @@ Installation
 Add spree_env_ribbon to your Gemfile:
 
 ```ruby
-gem 'spree_env_ribbon', github: 'freego/spree_env_ribbon', branch: '2-2-stable'
+gem 'spree_env_ribbon', github: 'freego/spree_env_ribbon', branch: '2-0-stable'
 ```
 
 Bundle your dependencies and run the installation generator:
