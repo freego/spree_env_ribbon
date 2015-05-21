@@ -2,10 +2,10 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_env_ribbon'
-  s.version     = '2.2.0'
+  s.version     = '3.0.0'
   s.summary     = 'Display current environment on Spree admin'
   s.description = s.summary
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.1.0'
 
   s.author    = 'Alessandro Lepore'
   s.email     = 'a.lepore@freegoweb.it'
@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.0'
+  s.add_dependency 'spree_core', '~> 3.0'
 end
